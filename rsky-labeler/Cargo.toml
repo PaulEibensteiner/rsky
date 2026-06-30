@@ -36,4 +36,4 @@ anyhow = "1.0.81"
 atrium-api = { version = "0.24.6", features = ["namespace-toolsozone"] }
 atrium-xrpc-client = "0.5.8"
 atrium-ipld = {package = "ipld-core", version = "0.4.1"}
-multihash = "0.19"
+multihash = { git = "https://github.com/multiformats/rust-multihash.git", rev = "c992faecb28191db07d993e1e748f019fc7ffbc1" }
