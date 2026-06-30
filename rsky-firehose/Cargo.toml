@@ -33,4 +33,4 @@ thiserror = "1.0.40"
 dotenvy = "0.15.7"
 retry = "2.0.0"
 anyhow = "1.0.81"
-multihash = "0.19"
+multihash = { git = "https://github.com/multiformats/rust-multihash.git", rev = "c992faecb28191db07d993e1e748f019fc7ffbc1" }
